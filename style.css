@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  background-color: black;
+ cursor: url('assets/luva.png') 0 0, auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
+
+
+.container {
+  position: relative;
+}
+
+
+.background {
+  width: 950px; /* você pode ajustar: 400, 600, etc */
+  height: auto;
+  display: block;
+}
+
+
+.center-box {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: transparent; /* tira o fundo */
+  padding: 0;              /* remove espaço interno */
+}
+
+.center-box h1 {
+  font-family: 'VT323', monospace;
+  color: #00ff00;
+  font-size: 32px;
+  text-shadow: 0 0 5px #00ff00;
+
+  display: flex;
+  align-items: center;
+}
+.cursor {
+  
+  margin-right: 8px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+#gameInput {
+  background: transparent;   /* tira fundo branco */
+  border: none;              /* remove borda */
+  outline: none;             /* remove contorno ao clicar */
+
+  color: #00ff00;            /* texto verde */
+  font-family: 'VT323', monospace;
+  font-size: 28px;
+
+  caret-color: #00ff00;      /* cursor verde */
+}
+#mensagem {
+    letter-spacing: 2px;
+  font-family: 'VT323', monospace;
+  color: #00ff00;
+  font-size: 24px;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+
+
+
+.tv-screen {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gameImage {
+  width: 300px;
+  border-radius: 5px;
+  display: block;
+}
+
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.red {
+  left: 520px;
+  top: 510px;
+}
+
+.green {
+  left: 480px;
+  top: 510px;
+}
+
+.blue {
+  left: 498px;
+  top: 495px;
+}
+
+.yellow {
+  left: 500px;
+  top: 527px;
+}
+
+.controls button {
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  cursor: pointer;
+
+  background: transparent;
+  border-radius: 50%;
+}
+
+
+.btn:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.7);
+}
+
+.red:hover {
+  box-shadow: 0 0 15px 5px red;
+}
+
+.green:hover {
+  box-shadow: 0 0 15px 5px lime;
+}
+
+.blue:hover {
+  box-shadow: 0 0 15px 5px blue;
+}
+
+.yellow:hover {
+  box-shadow: 0 0 15px 5px yellow;
+}
+@keyframes glitch {
+  0% { transform: scale(1); }
+  20% { transform: scale(1.05) rotate(1deg); }
+  40% { transform: scale(0.95) rotate(-1deg); }
+  60% { transform: scale(1.03); }
+  80% { transform: scale(0.97); }
+  100% { transform: scale(1); }
+}
+
+.glitch {
+  animation: glitch 0.3s;
+}
+#nomeMusica {
+  font-family: 'VT323', monospace;
+  color: #00ff00;
+  font-size: 22px;
+  margin-top: 10px;
+  text-shadow: 0 0 5px #00ff00;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

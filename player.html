@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/luva.png">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- IMAGEM DA TV -->
+    <img src="assets/gamer.png" class="background">
+
+    <!-- TELA DA TV -->
+    
+    <div class="tv-screen">
+  <img id="gameImage" src="assets/SOR.png">
+
+  <p id="nomeMusica">
+    <span class="cursor">></span>
+    Nenhuma música selecionada,Clique nos botões
+  </p>
+</div>
+
+    <!-- BOTÕES -->
+    <div class="controls">
+  <div class="btn red" onclick="tocarSom('som1')"></div>
+  <div class="btn green" onclick="tocarSom('som2')"></div>
+  <div class="btn blue" onclick="tocarSom('som3')"></div>
+  <div class="btn yellow" onclick="tocarSom('som4')"></div>
+</div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

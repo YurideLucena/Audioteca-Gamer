@@ -1,0 +1,13 @@
+# Ignorar imagem muito grande
+assets/Recollection.png
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do VS Code (opcional)
+.vscode/
+
+# Logs e temporários
+*.log
+*.tmp
