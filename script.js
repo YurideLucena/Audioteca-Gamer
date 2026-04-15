@@ -3,10 +3,10 @@ const jogos = {
     nome: "Streets of Rage",
     imagem: "assets/SOR.png",
     musicas: [
-      { titulo: "The Street of Rage", arquivo: "assets/som1.mp3" },
-      { titulo: "Player Select", arquivo: "assets/som2.mp3" },
-      { titulo: "Fighting in the Street", arquivo: "assets/som3.mp3" },
-      { titulo: "Dilapidated Town", arquivo: "assets/som4.mp3" }
+      { titulo: "The Street of Rage", arquivo: "assets/som1.mp3.mp3" },
+      { titulo: "Player Select", arquivo: "assets/som2.mp3.mp3" },
+      { titulo: "Fighting in the Street", arquivo: "assets/som3.mp3.mp3" },
+      { titulo: "Dilapidated Town", arquivo: "assets/som4.mp3.mp3" }
     ]
   },
 
