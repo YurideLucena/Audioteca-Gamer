@@ -30,10 +30,66 @@ const jogos = {
       { titulo: "Save Room - RE3", arquivo: "assets/RE3.mp3" },
       { titulo: "Save Room - RE Code Veronica", arquivo: "assets/REveronica.mp3" }
     ]
-  }
+  },
+
+  "street fighter 2": {
+    nome: "Street Fighter 2",
+    imagem: "assets/sf2.png",
+    musicas: [
+      { titulo: "Ken Theme", arquivo: "assets/Ken.mp3" },
+      { titulo: "Ryu Theme", arquivo: "assets/Ryu.mp3" },
+      { titulo: "Vega Theme", arquivo: "assets/Vega.mp3" },
+      { titulo: "Guile Theme", arquivo: "assets/Guile.mp3" }
+    ]
+  }, 
+
+  "dragon ball z budokai tenkaichi 3": {
+    nome: "Dragon Ball Z Budokai Tenkaichi 3",
+    imagem: "assets/dbz.jpg",
+    musicas: [
+      { titulo: "Theme 1", arquivo: "assets/db1.mp3" },
+      { titulo: "Theme 2", arquivo: "assets/db2.mp3" },
+      { titulo: "Theme 3", arquivo: "assets/db3.mp3" },
+      { titulo: "Theme 4", arquivo: "assets/db4.mp3" }
+    ]
+  },
+
+
+ "super mario 64": {
+    nome: "Super Mario 64",
+    imagem: "assets/mario64.jpg",
+    musicas: [
+      { titulo: "Title Theme", arquivo: "assets/T1.mp3" },
+      { titulo: "Slider", arquivo: "assets/S2.mp3" },
+      { titulo: "Dire,Dire Docks", arquivo: "assets/D3.mp3" },
+      { titulo: "Merry-Go-Round", arquivo: "assets/M4.mp3" }
+    ]
+  },
+
+
+"marvel vs capcom 2": { 
+    nome: "Marvel vs Capcom 2",
+    imagem: "assets/mvsc2.jpg",
+    musicas: [
+      { titulo: "Theme 1", arquivo: "assets/theme1.mp3" },
+      { titulo: "Theme 2", arquivo: "assets/theme2.mp3" },
+      { titulo: "Theme 3", arquivo: "assets/theme3.mp3" },
+      { titulo: "Theme 4", arquivo: "assets/theme4.mp3" }
+    ]
+  },
+
+
+"twisted metal 2": { 
+    nome: "Twisted Metal 2",
+    imagem: "assets/tw2.jpg",
+    musicas: [
+      { titulo: "Theme 1", arquivo: "assets/tw1.mp3" },
+      { titulo: "Theme 2", arquivo: "assets/tw2.mp3" },
+      { titulo: "Theme 3", arquivo: "assets/tw3.mp3" },
+      { titulo: "Theme 4", arquivo: "assets/tw4.mp3" }
+    ]
+  },
 };
-
-
 
 
 const aliases = {
